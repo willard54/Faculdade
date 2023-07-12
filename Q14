@@ -1,0 +1,26 @@
+// Programa que escreva por extenso um determinado algarismo passado como argumento.
+
+const algarismo = (x) => {
+   if (x === 0)
+    return 'zero'
+  if (x === 1)
+    return 'um'
+   if (x === 2)
+    return 'dois'
+   if (x === 3)
+    return 'três'
+  if (x === 4)
+    return 'quatro'
+   if (x === 5)
+    return 'cinco'
+   if (x === 6)
+    return 'seis'
+   if (x === 7)
+    return 'sete'
+   if (x === 8)
+    return 'oito'
+   if (x === 9)
+    return 'nove'
+  else return 'não é algarismo'
+}
+console.log(algarismo(7))
