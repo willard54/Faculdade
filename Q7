@@ -1,0 +1,13 @@
+//Programa para retornar o menor valor entre três números quaisquer. Tente resolver considerando o sub-problema de determinar o menor valor entre dois números quaisquer (obs: em caso de valores iguais, deve-se retornar como resultado o próprio valor).
+
+
+const menorValor = (a) => (b) => {
+  if (a < b)
+    return a
+  if (b < a)
+    return b
+  if (b === a)
+    return b
+}
+
+console.log(menorValor(9)(menorValor(7)(1)))
